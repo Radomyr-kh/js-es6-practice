@@ -23,9 +23,9 @@ filterNums([-2, 2, 3, 0, 43, -13, 6], 23); // [43]_
 Find the maximum interval between two consecutive arguments.
 
 **Example:**
-_maxInterv(3, 5, 2, 7); //5
-maxInterv(3, 5, 2, 7, 11, 0, -2); //11
-maxInterv(3, 5); //2
+_maxInterv(3, 5, 2, 7); //5  
+maxInterv(3, 5, 2, 7, 11, 0, -2); //11  
+maxInterv(3, 5); //2  
 maxInterv(3); //0_
 
 # Task 4
@@ -33,15 +33,15 @@ maxInterv(3); //0_
 The function takes any number of strings and returns the sum of their lengths.
 
 **Example:**
-_console.log(sumOfLen('hello', 'hi')); //7
-console.log(sumOfLen('hi')); //2
-console.log(sumOfLen()); //0
+_console.log(sumOfLen('hello', 'hi')); //7  
+console.log(sumOfLen('hi')); //2  
+console.log(sumOfLen()); //0  
 console.log(sumOfLen('hello', 'hi', 'my name', 'is')); //16_
 
 # Task 5
 
 Write a function **_combineArray(arr1, arr2)_** , which takes 2 arrays, and returns a new array consisting only of numeric elements of arrays arr1 and arr2.
-**Function example:**
+**Function example:**  
 _combineArray([12, "User01", 22, true, -8], ["Index", 6, null, 15])); // [12, 22, -8, 6, 15]_
 
 # Task 6
@@ -49,8 +49,8 @@ _combineArray([12, "User01", 22, true, -8], ["Index", 6, null, 15])); // [12, 22
 Implement the **_longestLogin(loginList)_** function, which takes an array of user logins loginList and returns the longest login. If the logins of the same length are the longest in the array, the login element with the largest index is returned.  
 Tip: You can use the _reduce()_ method to solve the task.
 
-**Function examples:**
-_longestLogin(['dima', 'vlad_2', 'Radchenko', 'guest']); // Radchenko
+**Function examples:**  
+_longestLogin(['dima', 'vlad_2', 'Radchenko', 'guest']); // Radchenko  
 longestLogin(["user1", "user2", "333", "user4", "aa"]); // user4_
 
 # Task 7
@@ -58,8 +58,8 @@ longestLogin(["user1", "user2", "333", "user4", "aa"]); // user4_
 Implement the **_processArray(arr, factorial)_** function, which takes the first parameter of the array arr, and the second parameter the function factorial and processes each element of the array arr with the function factorial, returning a new array (the source array arr does not change). The function **_factorial(n)_** calculates and returns the factorial of the number **_n_**. For example factorial(4) returns 24.
 
 **Example:**
-_// determines the factorial of the number n
-function factorial(n) { // your code};
+_// determines the factorial of the number n  
+function factorial(n) { // your code};  
 processArray([1, 2, 3, 4, 5], factorial); // [1, 2, 6, 24, 120]_
 
 # Task 8
@@ -69,10 +69,10 @@ Using the default parameter technique, overload the **_overloadedFunc()_** funct
 The **_overloadedFunc()_** function returns the result of the default function.
 
 **Usage example:**
-_console.log(overloadedFunc()); // [2, 4, 6]
-console.log(overloadedFunc([2, 4, 6, 8])); // [4, 8, 12, 16]
-console.log(overloadedFunc([2, 4, 6], 3)); // [6, 12, 18]
-console.log(overloadedFunc(10)); // 20
+_console.log(overloadedFunc()); // [2, 4, 6]  
+console.log(overloadedFunc([2, 4, 6, 8])); // [4, 8, 12, 16]  
+console.log(overloadedFunc([2, 4, 6], 3)); // [6, 12, 18]  
+console.log(overloadedFunc(10)); // 20  
 console.log(overloadedFunc(8, 3)); // 24_
 
 # Task 9
@@ -80,14 +80,13 @@ console.log(overloadedFunc(8, 3)); // 24_
 Please, implement a function combineFunctions that takes any number of functions as an argument and returns a function that is a composition of the arguments.
 
 **For example:**
-_negate = function(x){ return -x; };
-halve = function(x){ return x / 2; };
-square = function(x){ return x * x; };
-double = function(x){ return 2 * x; };
-combineFunctions(negate, halve, square) should return a function
-square(halve(negate(x)))
-combineFunctions(negate, double) should return a function
-double(negate(x)))_
+_negate = function(x){ return -x; };  
+halve = function(x){ return x / 2; };  
+square = function(x){ return x * x; };  
+double = function(x){ return 2 * x; };  
+
+combineFunctions(negate, halve, square) should return a function square(halve(negate(x)))  
+combineFunctions(negate, double) should return a function double(negate(x)))_  
 
 # Task 10
 
