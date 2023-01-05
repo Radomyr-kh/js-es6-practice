@@ -144,8 +144,8 @@ Pay attention to the order of the function arguments.
 
 **Usage example:**
 
-_// implementation of 5 atomic functions
-// implementation of createComposition function
-const result = createComposition( // 5 function-arguments )
-console.log(result("by_ticket_now")); // BY TICKET NOW!!! BY TICKET NOW!!!
-console.log(result("total sale")); // TOTAL SALE!!! TOTAL SALE!!!_
+_// implementation of 5 atomic functions  
+// implementation of createComposition function  
+const result = createComposition( // 5 function-arguments )  
+console.log(result("by_ticket_now")); // BY TICKET NOW!!! BY TICKET NOW!!!  
+console.log(result("total sale")); // TOTAL SALE!!! TOTAL SALE!!!_  
