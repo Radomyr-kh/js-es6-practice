@@ -2,20 +2,20 @@
 
 Implement the **_getModifiedArray(array)_** function, which takes an arbitrary array, and returns an array with the value of the first element of the array equal to “Start”, the last element of the array equal to “End” and the rest of elements should be the same as in an initial array. The initial array should stay unchanged.
 
-**Function example:**
+**Function example:**  
 _getModifiedArray([12, 6, 22, 0, -8])); // [‘Start’, 6, 22, 0, ‘End’]_
 
 # Task 2
 
 The function **_filterNums_** receives an array of integers, a number and a parameter (greater, less). Print a new array, where all elements will be greater/less than this number
 
-By default, the number is 0, the parameter is greater.
+By default, the number is 0, the parameter is greater.  
 
 **Example:**
-_filterNums([-1, 2, 4, 0, 55, -12, 3], 11, 'greater'); //[ 55]
-filterNums([-2, 2, 3, 0, 43, -13, 6], 6, 'less'); // [-2, 2, 3, 0, -13]
-filterNums([-2, 2, 3, 0, 43, -13, 6], -33, 'less'); // []
-filterNums([-2, 2, 3, 0, 43, -13, 6]); // [2, 3, 43, 6]
+_filterNums([-1, 2, 4, 0, 55, -12, 3], 11, 'greater'); //[ 55]  
+filterNums([-2, 2, 3, 0, 43, -13, 6], 6, 'less'); // [-2, 2, 3, 0, -13]  
+filterNums([-2, 2, 3, 0, 43, -13, 6], -33, 'less'); // []  
+filterNums([-2, 2, 3, 0, 43, -13, 6]); // [2, 3, 43, 6]  
 filterNums([-2, 2, 3, 0, 43, -13, 6], 23); // [43]_
 
 # Task 3
